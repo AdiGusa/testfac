@@ -5,7 +5,7 @@ image: Visual Studio 2019
 configuration: Release
 
 build:
-  project: FlorarieApp.sln
+  project: Form1.cs
 
 artifacts:
 - path: bin\Release
