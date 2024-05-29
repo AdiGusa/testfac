@@ -1,0 +1,13 @@
+version: 1.0.{build}
+
+image: Visual Studio 2019
+
+configuration: Release
+
+build:
+  project: FlorarieApp.sln
+
+artifacts:
+- path: bin\Release
+  name: FlorarieApp
+
